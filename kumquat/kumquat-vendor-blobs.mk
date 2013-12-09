@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kumquat/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/kumquat/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/kumquat/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/sony/kumquat/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/kumquat/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/kumquat/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     vendor/sony/kumquat/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
