@@ -49,6 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/bin/ste_omxil_test:system/bin/ste_omxil_test \
     vendor/sony/montblanc-common/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
     vendor/sony/montblanc-common/proprietary/bin/cn_server:system/bin/cn_server \
+	vendor/sony/montblanc-common/proprietary/bin/install_wlan:system/bin/install_wlan\
+	vendor/sony/montblanc-common/proprietary/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh\
     vendor/sony/montblanc-common/proprietary/bin/ste-adm-test:system/bin/ste-adm-test \
     vendor/sony/montblanc-common/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/montblanc-common/proprietary/bin/chargemon:system/bin/chargemon \
@@ -407,9 +409,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/sony/montblanc-common/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/sony/montblanc-common/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/sony/montblanc-common/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
-    vendor/sony/montblanc-common/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
-    vendor/sony/montblanc-common/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
     vendor/sony/montblanc-common/proprietary/lib/libmaluicc.so:system/lib/libmaluicc.so \
     vendor/sony/montblanc-common/proprietary/lib/libnmf.so:system/lib/libnmf.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefright_soft_ste_wmapro_v10.so:system/lib/libstagefright_soft_ste_wmapro_v10.so \
@@ -507,10 +506,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/montblanc-common/proprietary/lib/libiddjni.so:system/lib/libiddjni.so \
     vendor/sony/montblanc-common/proprietary/lib/libS1SL.so:system/lib/libS1SL.so \
-    vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/audio.so:system/lib/bluez-plugin/audio.so \
-    vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
-    vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/network.so:system/lib/bluez-plugin/network.so \
-    vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/input.so:system/lib/bluez-plugin/input.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefright_soft_ste_aacdec.so:system/lib/libstagefright_soft_ste_aacdec.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
