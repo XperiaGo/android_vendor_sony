@@ -425,7 +425,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_image_common.so:system/lib/libste_ens_image_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libmcatcher.so:system/lib/libmcatcher.so \
-    vendor/sony/montblanc-common/proprietary/lib/libblt_hw.so:system/lib/libblt_hw.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalutil.so:system/lib/libmalutil.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalftd.so:system/lib/libmalftd.so \
