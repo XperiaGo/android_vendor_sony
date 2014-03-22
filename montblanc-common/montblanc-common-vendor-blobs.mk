@@ -27,8 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/bin/cn_server:system/bin/cn_server \
     vendor/sony/montblanc-common/proprietary/bin/cops_cmd:system/bin/cops_cmd \
     vendor/sony/montblanc-common/proprietary/bin/copsdaemon:system/bin/copsdaemon \
-    vendor/sony/montblanc-common/proprietary/bin/install_wlan:system/bin/install_wlan\
-    vendor/sony/montblanc-common/proprietary/bin/iw:system/bin/iw \
     vendor/sony/montblanc-common/proprietary/bin/lbsd:system/bin/lbsd \
     vendor/sony/montblanc-common/proprietary/bin/lbsstelp:system/bin/lbsstelp \
     vendor/sony/montblanc-common/proprietary/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh\
