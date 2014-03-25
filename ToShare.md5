@@ -1,0 +1,228 @@
+04be1c561d2cd95b2301c270c88688ec  ./kumquat/proprietary/etc/firmware/wsm_10.bin
+04be1c561d2cd95b2301c270c88688ec  ./lotus/proprietary/etc/firmware/wsm_10.bin
+04be1c561d2cd95b2301c270c88688ec  ./nypon/proprietary/etc/firmware/wsm_10.bin
+04be1c561d2cd95b2301c270c88688ec  ./pepper/proprietary/etc/firmware/wsm_10.bin
+
+08d7550a7324533ca815cb39443c56ee  ./kumquat/proprietary/etc/firmware/sdd_11.bin
+08d7550a7324533ca815cb39443c56ee  ./lotus/proprietary/etc/firmware/sdd_11.bin
+08d7550a7324533ca815cb39443c56ee  ./nypon/proprietary/etc/firmware/sdd_11.bin
+08d7550a7324533ca815cb39443c56ee  ./pepper/proprietary/etc/firmware/sdd_11.bin
+
+08dd06dfe04c7bac11b97f2f41d352c1  ./kumquat/proprietary/usr/share/camera/config_file/sony_isx006.dat
+08dd06dfe04c7bac11b97f2f41d352c1  ./lotus/proprietary/usr/share/camera/config_file/sony_isx006.dat
+08dd06dfe04c7bac11b97f2f41d352c1  ./nypon/proprietary/usr/share/camera/config_file/sony_isx006.dat
+08dd06dfe04c7bac11b97f2f41d352c1  ./pepper/proprietary/usr/share/camera/config_file/sony_isx006.dat
+
+0dca9a92ade53037cc421184d7877560  ./kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw
+0dca9a92ade53037cc421184d7877560  ./kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw
+0dca9a92ade53037cc421184d7877560  ./lotus/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw
+0dca9a92ade53037cc421184d7877560  ./lotus/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw
+0dca9a92ade53037cc421184d7877560  ./nypon/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw
+0dca9a92ade53037cc421184d7877560  ./nypon/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw
+0dca9a92ade53037cc421184d7877560  ./pepper/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw
+0dca9a92ade53037cc421184d7877560  ./pepper/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw
+
+108215d070b001004301c3138d4a9c24  ./kumquat/proprietary/etc/AT/manuf_id.cfg
+108215d070b001004301c3138d4a9c24  ./lotus/proprietary/etc/AT/manuf_id.cfg
+108215d070b001004301c3138d4a9c24  ./nypon/proprietary/etc/AT/manuf_id.cfg
+108215d070b001004301c3138d4a9c24  ./pepper/proprietary/etc/AT/manuf_id.cfg
+
+12785cd229ee44ef91c8331e1c6028bd  ./kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw
+12785cd229ee44ef91c8331e1c6028bd  ./lotus/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw
+12785cd229ee44ef91c8331e1c6028bd  ./nypon/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw
+12785cd229ee44ef91c8331e1c6028bd  ./pepper/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw
+
+1bfacb9613f7732e29b42ab3e97d8a98  ./kumquat/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat
+1bfacb9613f7732e29b42ab3e97d8a98  ./lotus/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat
+1bfacb9613f7732e29b42ab3e97d8a98  ./nypon/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat
+1bfacb9613f7732e29b42ab3e97d8a98  ./pepper/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat
+
+20762dca1592ed4400cce1b392066f42  ./kumquat/proprietary/lib/libcameraextensionservice.so
+20762dca1592ed4400cce1b392066f42  ./lotus/proprietary/lib/libcameraextensionservice.so
+20762dca1592ed4400cce1b392066f42  ./nypon/proprietary/lib/libcameraextensionservice.so
+20762dca1592ed4400cce1b392066f42  ./pepper/proprietary/lib/libcameraextensionservice.so
+
+29d6acee0b64e713efe66f506914999a  ./kumquat/proprietary/etc/firmware/wsm_20.bin
+29d6acee0b64e713efe66f506914999a  ./lotus/proprietary/etc/firmware/wsm_20.bin
+29d6acee0b64e713efe66f506914999a  ./nypon/proprietary/etc/firmware/wsm_20.bin
+29d6acee0b64e713efe66f506914999a  ./pepper/proprietary/etc/firmware/wsm_20.bin
+
+2fe3ab0df083e509b622a09da3bfca36  ./kumquat/proprietary/vendor/camera/STW05BN0_BH6476.dat
+2fe3ab0df083e509b622a09da3bfca36  ./lotus/proprietary/vendor/camera/STW05BN0_BH6476.dat
+2fe3ab0df083e509b622a09da3bfca36  ./pepper/proprietary/vendor/camera/STW05BN0_BH6476.dat
+
+363a18ada841925010adadf990d684df  ./kumquat/proprietary/vendor/camera/APT00YP1.dat
+363a18ada841925010adadf990d684df  ./lotus/proprietary/vendor/camera/APT00YP1.dat
+363a18ada841925010adadf990d684df  ./nypon/proprietary/vendor/camera/APT00YP1.dat
+363a18ada841925010adadf990d684df  ./pepper/proprietary/vendor/camera/APT00YP1.dat
+
+3c134e6947acdd4c881b9a3dda72cbf9  ./kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat
+3c134e6947acdd4c881b9a3dda72cbf9  ./lotus/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat
+3c134e6947acdd4c881b9a3dda72cbf9  ./nypon/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat
+3c134e6947acdd4c881b9a3dda72cbf9  ./pepper/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat
+
+4723cec58478d5dbcc344b391de5b31e  ./kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat
+4723cec58478d5dbcc344b391de5b31e  ./lotus/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat
+4723cec58478d5dbcc344b391de5b31e  ./nypon/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat
+4723cec58478d5dbcc344b391de5b31e  ./pepper/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat
+
+482a688e87d6a8a0fc4acb9c8ca621ce  ./kumquat/proprietary/lib/libcald_imageutil.so
+482a688e87d6a8a0fc4acb9c8ca621ce  ./lotus/proprietary/lib/libcald_imageutil.so
+482a688e87d6a8a0fc4acb9c8ca621ce  ./nypon/proprietary/lib/libcald_imageutil.so
+482a688e87d6a8a0fc4acb9c8ca621ce  ./pepper/proprietary/lib/libcald_imageutil.so
+
+4a1e8335e737410cd2bf852cfbd153b6  ./kumquat/proprietary/etc/firmware/sdd_10.bin
+4a1e8335e737410cd2bf852cfbd153b6  ./lotus/proprietary/etc/firmware/sdd_10.bin
+4a1e8335e737410cd2bf852cfbd153b6  ./nypon/proprietary/etc/firmware/sdd_10.bin
+4a1e8335e737410cd2bf852cfbd153b6  ./pepper/proprietary/etc/firmware/sdd_10.bin
+
+501d917cb17f6824ca299c32760e2c65  ./kumquat/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw
+501d917cb17f6824ca299c32760e2c65  ./lotus/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw
+501d917cb17f6824ca299c32760e2c65  ./nypon/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw
+501d917cb17f6824ca299c32760e2c65  ./pepper/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw
+
+50f6c55d84d32d95ca54dfe6639d95ef  ./kumquat/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw
+50f6c55d84d32d95ca54dfe6639d95ef  ./lotus/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw
+50f6c55d84d32d95ca54dfe6639d95ef  ./nypon/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw
+50f6c55d84d32d95ca54dfe6639d95ef  ./pepper/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw
+
+5a8fc0cde2d86ddd0232008271088d4d  ./kumquat/proprietary/lib/libcameraextensionjni.so
+5a8fc0cde2d86ddd0232008271088d4d  ./lotus/proprietary/lib/libcameraextensionjni.so
+5a8fc0cde2d86ddd0232008271088d4d  ./nypon/proprietary/lib/libcameraextensionjni.so
+5a8fc0cde2d86ddd0232008271088d4d  ./pepper/proprietary/lib/libcameraextensionjni.so
+
+6f62ba3b01ed7cdaa364b7defd2a0ffd  ./kumquat/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw
+6f62ba3b01ed7cdaa364b7defd2a0ffd  ./lotus/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw
+6f62ba3b01ed7cdaa364b7defd2a0ffd  ./nypon/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw
+6f62ba3b01ed7cdaa364b7defd2a0ffd  ./pepper/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw
+
+74a72153d7fd8feaea4f70ed3ad5a563  ./kumquat/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw
+74a72153d7fd8feaea4f70ed3ad5a563  ./lotus/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw
+74a72153d7fd8feaea4f70ed3ad5a563  ./nypon/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw
+74a72153d7fd8feaea4f70ed3ad5a563  ./pepper/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw
+
+7ab8ddabe5ab4722ccca04e7dcac2c9e  ./kumquat/proprietary/lib/libcameraextensionclient.so
+7ab8ddabe5ab4722ccca04e7dcac2c9e  ./lotus/proprietary/lib/libcameraextensionclient.so
+7ab8ddabe5ab4722ccca04e7dcac2c9e  ./nypon/proprietary/lib/libcameraextensionclient.so
+7ab8ddabe5ab4722ccca04e7dcac2c9e  ./pepper/proprietary/lib/libcameraextensionclient.so
+
+7fe4b60a35a3be006f879636c030b89c  ./kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw
+7fe4b60a35a3be006f879636c030b89c  ./lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw
+7fe4b60a35a3be006f879636c030b89c  ./nypon/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw
+7fe4b60a35a3be006f879636c030b89c  ./pepper/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw
+
+822a163da876177ac509080db329bcb4  ./kumquat/proprietary/lib/libcald_pal.so
+822a163da876177ac509080db329bcb4  ./lotus/proprietary/lib/libcald_pal.so
+822a163da876177ac509080db329bcb4  ./nypon/proprietary/lib/libcald_pal.so
+822a163da876177ac509080db329bcb4  ./pepper/proprietary/lib/libcald_pal.so
+
+8483a8d6af5e5c62631b6257ac549fe8  ./kumquat/proprietary/lib/libcamera_clientsemc.so
+8483a8d6af5e5c62631b6257ac549fe8  ./lotus/proprietary/lib/libcamera_clientsemc.so
+8483a8d6af5e5c62631b6257ac549fe8  ./nypon/proprietary/lib/libcamera_clientsemc.so
+8483a8d6af5e5c62631b6257ac549fe8  ./pepper/proprietary/lib/libcamera_clientsemc.so
+
+8d7b738176df6c7355379cc0881d1ed4  ./kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw
+8d7b738176df6c7355379cc0881d1ed4  ./lotus/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw
+8d7b738176df6c7355379cc0881d1ed4  ./nypon/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw
+8d7b738176df6c7355379cc0881d1ed4  ./pepper/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw
+
+a1c4ae901c3c0e22cbde5a451511a4bc  ./kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw
+a1c4ae901c3c0e22cbde5a451511a4bc  ./lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw
+a1c4ae901c3c0e22cbde5a451511a4bc  ./nypon/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw
+a1c4ae901c3c0e22cbde5a451511a4bc  ./pepper/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw
+
+
+a6cc7fed8053800e0cfcc8b856d7f1a5  ./kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw
+a6cc7fed8053800e0cfcc8b856d7f1a5  ./lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw
+a6cc7fed8053800e0cfcc8b856d7f1a5  ./nypon/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw
+a6cc7fed8053800e0cfcc8b856d7f1a5  ./pepper/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw
+
+a8a700bdadb72567ddd15f0a566986fe  ./kumquat/proprietary/lib/libcflashdriver.so
+a8a700bdadb72567ddd15f0a566986fe  ./lotus/proprietary/lib/libcflashdriver.so
+a8a700bdadb72567ddd15f0a566986fe  ./nypon/proprietary/lib/libcflashdriver.so
+a8a700bdadb72567ddd15f0a566986fe  ./pepper/proprietary/lib/libcflashdriver.so
+
+a9a55be38c59226b0c7d2cc01583d951  ./kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw
+a9a55be38c59226b0c7d2cc01583d951  ./lotus/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw
+a9a55be38c59226b0c7d2cc01583d951  ./nypon/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw
+a9a55be38c59226b0c7d2cc01583d951  ./pepper/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw
+
+aac2607cde5bf52cc1b7701573a04077  ./kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw
+aac2607cde5bf52cc1b7701573a04077  ./kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw
+aac2607cde5bf52cc1b7701573a04077  ./lotus/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw
+aac2607cde5bf52cc1b7701573a04077  ./lotus/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw
+aac2607cde5bf52cc1b7701573a04077  ./nypon/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw
+aac2607cde5bf52cc1b7701573a04077  ./nypon/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw
+aac2607cde5bf52cc1b7701573a04077  ./pepper/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw
+aac2607cde5bf52cc1b7701573a04077  ./pepper/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw
+
+afb1f37ccf2e3fda965099ba9e583b4e  ./kumquat/proprietary/etc/firmware/sdd_20.bin
+afb1f37ccf2e3fda965099ba9e583b4e  ./lotus/proprietary/etc/firmware/sdd_20.bin
+afb1f37ccf2e3fda965099ba9e583b4e  ./nypon/proprietary/etc/firmware/sdd_20.bin
+afb1f37ccf2e3fda965099ba9e583b4e  ./pepper/proprietary/etc/firmware/sdd_20.bin
+
+b06fb5c46e663c368b0aa6426dc24160  ./kumquat/proprietary/lib/libcald_server.so
+b06fb5c46e663c368b0aa6426dc24160  ./lotus/proprietary/lib/libcald_server.so
+b06fb5c46e663c368b0aa6426dc24160  ./nypon/proprietary/lib/libcald_server.so
+b06fb5c46e663c368b0aa6426dc24160  ./pepper/proprietary/lib/libcald_server.so
+
+b21ece201fb0b129efedbe11cf83b8a9  ./kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat
+b21ece201fb0b129efedbe11cf83b8a9  ./lotus/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat
+b21ece201fb0b129efedbe11cf83b8a9  ./nypon/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat
+b21ece201fb0b129efedbe11cf83b8a9  ./pepper/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat
+b23d54689434b20882a53377c3814d9a  ./nypon/proprietary/etc/firmware/sdd_22.bin
+
+c0df84faa194bb7aba3009ba25de05bb  ./kumquat/proprietary/lib/hw/camera.montblanc.so
+c0df84faa194bb7aba3009ba25de05bb  ./lotus/proprietary/lib/hw/camera.montblanc.so
+c0df84faa194bb7aba3009ba25de05bb  ./nypon/proprietary/lib/hw/camera.montblanc.so
+c0df84faa194bb7aba3009ba25de05bb  ./pepper/proprietary/lib/hw/camera.montblanc.so
+
+c1f1745611b3071ddfb7f85cbe0f5c81  ./kumquat/proprietary/etc/firmware/wsm_22.bin
+c1f1745611b3071ddfb7f85cbe0f5c81  ./lotus/proprietary/etc/firmware/wsm_22.bin
+c1f1745611b3071ddfb7f85cbe0f5c81  ./nypon/proprietary/etc/firmware/wsm_22.bin
+c1f1745611b3071ddfb7f85cbe0f5c81  ./pepper/proprietary/etc/firmware/wsm_22.bin
+
+c6cc4dfa7ce51677d7d4d2ed6a4b3801  ./kumquat/proprietary/lib/libcald_util.so
+c6cc4dfa7ce51677d7d4d2ed6a4b3801  ./lotus/proprietary/lib/libcald_util.so
+c6cc4dfa7ce51677d7d4d2ed6a4b3801  ./nypon/proprietary/lib/libcald_util.so
+c6cc4dfa7ce51677d7d4d2ed6a4b3801  ./pepper/proprietary/lib/libcald_util.so
+
+cedec2b0dc4e3b973dbde7e02b6fad8f  ./kumquat/proprietary/lib/libcald_client.so
+cedec2b0dc4e3b973dbde7e02b6fad8f  ./lotus/proprietary/lib/libcald_client.so
+cedec2b0dc4e3b973dbde7e02b6fad8f  ./nypon/proprietary/lib/libcald_client.so
+cedec2b0dc4e3b973dbde7e02b6fad8f  ./pepper/proprietary/lib/libcald_client.so
+
+d2630d181ab911303549ece6ccac08ec  ./kumquat/proprietary/lib/libsys-utils.so
+d2630d181ab911303549ece6ccac08ec  ./lotus/proprietary/lib/libsys-utils.so
+d2630d181ab911303549ece6ccac08ec  ./nypon/proprietary/lib/libsys-utils.so
+d2630d181ab911303549ece6ccac08ec  ./pepper/proprietary/lib/libsys-utils.so
+
+d649c54319c22e227f3ee0d96842a295  ./kumquat/proprietary/etc/firmware/wsm_11.bin
+d649c54319c22e227f3ee0d96842a295  ./lotus/proprietary/etc/firmware/wsm_11.bin
+d649c54319c22e227f3ee0d96842a295  ./nypon/proprietary/etc/firmware/wsm_11.bin
+d649c54319c22e227f3ee0d96842a295  ./pepper/proprietary/etc/firmware/wsm_11.bin
+
+da94890c5a8a2fd690c27a26bf08596e  ./kumquat/proprietary/lib/libface.so
+da94890c5a8a2fd690c27a26bf08596e  ./lotus/proprietary/lib/libface.so
+da94890c5a8a2fd690c27a26bf08596e  ./nypon/proprietary/lib/libface.so
+da94890c5a8a2fd690c27a26bf08596e  ./pepper/proprietary/lib/libface.so
+
+dacfb312352e95bef044c9aa3ed08875  ./kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw
+dacfb312352e95bef044c9aa3ed08875  ./lotus/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw
+dacfb312352e95bef044c9aa3ed08875  ./nypon/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw
+dacfb312352e95bef044c9aa3ed08875  ./pepper/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw
+
+e3ffaf9998ceeb7afeedb6d11f1e6a2a  ./kumquat/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat
+e3ffaf9998ceeb7afeedb6d11f1e6a2a  ./lotus/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat
+e3ffaf9998ceeb7afeedb6d11f1e6a2a  ./nypon/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat
+e3ffaf9998ceeb7afeedb6d11f1e6a2a  ./pepper/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat
+
+efc0a794c9d3e9c52ef71408b00c4e62  ./kumquat/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw
+efc0a794c9d3e9c52ef71408b00c4e62  ./lotus/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw
+efc0a794c9d3e9c52ef71408b00c4e62  ./nypon/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw
+efc0a794c9d3e9c52ef71408b00c4e62  ./pepper/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw
+
+f316474b2d171c4ee1ac817585e64ce2  ./kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw
+f316474b2d171c4ee1ac817585e64ce2  ./lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw
+f316474b2d171c4ee1ac817585e64ce2  ./nypon/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw
+f316474b2d171c4ee1ac817585e64ce2  ./pepper/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw
