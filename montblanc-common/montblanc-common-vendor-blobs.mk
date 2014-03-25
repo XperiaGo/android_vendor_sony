@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libasound.so:obj/lib/libasound.so
 
-PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \ 
     vendor/sony/montblanc-common/proprietary/bin/admsrv:system/bin/admsrv \
     vendor/sony/montblanc-common/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/montblanc-common/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
@@ -30,9 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/bin/lbsd:system/bin/lbsd \
     vendor/sony/montblanc-common/proprietary/bin/lbsstelp:system/bin/lbsstelp \
     vendor/sony/montblanc-common/proprietary/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh\
-    vendor/sony/montblanc-common/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
-    vendor/sony/montblanc-common/proprietary/bin/modem_log_relay:system/bin/modem_log_relay \
     vendor/sony/montblanc-common/proprietary/bin/modemcatcher:system/bin/modemcatcher \
+    vendor/sony/montblanc-common/proprietary/bin/modem_log_relay:system/bin/modem_log_relay \
+    vendor/sony/montblanc-common/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
     vendor/sony/montblanc-common/proprietary/bin/msa:system/bin/msa \
     vendor/sony/montblanc-common/proprietary/bin/psccd:system/bin/psccd \
     vendor/sony/montblanc-common/proprietary/bin/rfhal_export:system/bin/rfhal_export \
@@ -46,13 +46,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/bin/ste_omxil_test:system/bin/ste_omxil_test \
     vendor/sony/montblanc-common/proprietary/bin/stercd:system/bin/stercd \
     vendor/sony/montblanc-common/proprietary/bin/suntrold:system/bin/suntrold \
-    vendor/sony/montblanc-common/proprietary/bin/ta_reader:system/bin/ta_reader \
     vendor/sony/montblanc-common/proprietary/bin/tad:system/bin/tad \
     vendor/sony/montblanc-common/proprietary/bin/taimport:system/bin/taimport \
+    vendor/sony/montblanc-common/proprietary/bin/ta_reader:system/bin/ta_reader \
     vendor/sony/montblanc-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/montblanc-common/proprietary/bin/usbid_init.sh:system/bin/usbid_init.sh \
     vendor/sony/montblanc-common/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/montblanc-common/proprietary/etc/adm.sqlite:system/etc/adm.sqlite \
+    vendor/sony/montblanc-common/proprietary/etc/AT/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
@@ -60,40 +61,76 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/network.conf:system/etc/bluetooth/network.conf \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/qos_role_switch_blacklist.conf:system/etc/bluetooth/qos_role_switch_blacklist.conf \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw:system/etc/firmware/cg2900_fm_bt_src_coeff_info.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw:system/etc/firmware/cg2900_fm_fm_coeff_info.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw:system/etc/firmware/cg2900_fm_fm_prog_info.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/sdd_10.bin:system/etc/firmware/sdd_10.bin \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/sdd_11.bin:system/etc/firmware/sdd_11.bin \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/sdd_20.bin:system/etc/firmware/sdd_20.bin \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/wsm_10.bin:system/etc/firmware/wsm_10.bin \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/wsm_11.bin:system/etc/firmware/wsm_11.bin \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/wsm_20.bin:system/etc/firmware/wsm_20.bin \
+    vendor/sony/montblanc-common/proprietary/etc/firmware/wsm_22.bin:system/etc/firmware/wsm_22.bin \
     vendor/sony/montblanc-common/proprietary/etc/LbsConfig.cfg:system/etc/LbsConfig.cfg \
     vendor/sony/montblanc-common/proprietary/etc/LbsLogConfig.cfg:system/etc/LbsLogConfig.cfg \
     vendor/sony/montblanc-common/proprietary/etc/LbsPgpsConfig.cfg:system/etc/LbsPgpsConfig.cfg \
     vendor/sony/montblanc-common/proprietary/etc/LbsPltConfig.cfg:system/etc/LbsPltConfig.cfg \
     vendor/sony/montblanc-common/proprietary/etc/plmn.operator.list:system/etc/plmn.operator.list \
     vendor/sony/montblanc-common/proprietary/etc/psdata/stepscc_conf:system/etc/psdata/stepscc_conf \
-    vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_conf:system/etc/psdata/sterc_conf \
     vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_conf_alt:system/etc/psdata/sterc_conf_alt \
-    vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_connect:system/etc/psdata/sterc_script_connect \
+    vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_conf:system/etc/psdata/sterc_conf \
     vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_connect_alt:system/etc/psdata/sterc_script_connect_alt \
     vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_connect_dun:system/etc/psdata/sterc_script_connect_dun \
-    vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_disconnect:system/etc/psdata/sterc_script_disconnect \
+    vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_connect:system/etc/psdata/sterc_script_connect \
     vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_disconnect_dun:system/etc/psdata/sterc_script_disconnect_dun \
+    vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_disconnect:system/etc/psdata/sterc_script_disconnect \
     vendor/sony/montblanc-common/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/sony/montblanc-common/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/sony/montblanc-common/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/sony/montblanc-common/proprietary/lib/hw/audio.primary.montblanc.so:system/lib/hw/audio.primary.montblanc.so \
     vendor/sony/montblanc-common/proprietary/lib/hw/audio_policy.montblanc.so:system/lib/hw/audio_policy.montblanc.so \
+    vendor/sony/montblanc-common/proprietary/lib/hw/audio.primary.montblanc.so:system/lib/hw/audio.primary.montblanc.so \
+    vendor/sony/montblanc-common/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     vendor/sony/montblanc-common/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so \
     vendor/sony/montblanc-common/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
     vendor/sony/montblanc-common/proprietary/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
     vendor/sony/montblanc-common/proprietary/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
-    vendor/sony/montblanc-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/montblanc-common/proprietary/lib/libarchive.so:system/lib/libarchive.so \
     vendor/sony/montblanc-common/proprietary/lib/libarchive_fe.so:system/lib/libarchive_fe.so \
+    vendor/sony/montblanc-common/proprietary/lib/libarchive.so:system/lib/libarchive.so \
+    vendor/sony/montblanc-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/montblanc-common/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/sony/montblanc-common/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/sony/montblanc-common/proprietary/lib/libbassapp.so:system/lib/libbassapp.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
+    vendor/sony/montblanc-common/proprietary/lib/libcflashdriver.so:system/lib/libcflashdriver.so \
     vendor/sony/montblanc-common/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
     vendor/sony/montblanc-common/proprietary/lib/libcn.so:system/lib/libcn.so \
     vendor/sony/montblanc-common/proprietary/lib/libcops.so:system/lib/libcops.so \
+    vendor/sony/montblanc-common/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/montblanc-common/proprietary/lib/libfmradio.cg2900.so:system/lib/libfmradio.cg2900.so \
-    vendor/sony/montblanc-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/montblanc-common/proprietary/lib/libiddjni.so:system/lib/libiddjni.so \
+    vendor/sony/montblanc-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/montblanc-common/proprietary/lib/libisimessage.so:system/lib/libisimessage.so \
     vendor/sony/montblanc-common/proprietary/lib/libiwiOmx.so:system/lib/libiwiOmx.so \
     vendor/sony/montblanc-common/proprietary/lib/libiwiOmxUtil.so:system/lib/libiwiOmxUtil.so \
@@ -117,13 +154,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libmaluicc.so:system/lib/libmaluicc.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalutil.so:system/lib/libmalutil.so \
     vendor/sony/montblanc-common/proprietary/lib/libmcatcher.so:system/lib/libmcatcher.so \
-    vendor/sony/montblanc-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/montblanc-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
+    vendor/sony/montblanc-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/montblanc-common/proprietary/lib/libmmprobe.so:system/lib/libmmprobe.so \
     vendor/sony/montblanc-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/montblanc-common/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/sony/montblanc-common/proprietary/lib/libnmf.so:system/lib/libnmf.so \
     vendor/sony/montblanc-common/proprietary/lib/libnmfee.so:system/lib/libnmfee.so \
+    vendor/sony/montblanc-common/proprietary/lib/libnmf.so:system/lib/libnmf.so \
     vendor/sony/montblanc-common/proprietary/lib/libnmftimer.so:system/lib/libnmftimer.so \
     vendor/sony/montblanc-common/proprietary/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
     vendor/sony/montblanc-common/proprietary/lib/libphonet.so:system/lib/libphonet.so \
@@ -134,38 +171,33 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     vendor/sony/montblanc-common/proprietary/lib/libsms_server.so:system/lib/libsms_server.so \
     vendor/sony/montblanc-common/proprietary/lib/libspeech_processing.so:system/lib/libspeech_processing.so \
+    vendor/sony/montblanc-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefright_soft_ste_aacdec.so:system/lib/libstagefright_soft_ste_aacdec.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefright_soft_ste_mp3dec.so:system/lib/libstagefright_soft_ste_mp3dec.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefright_soft_ste_wmapro_v10.so:system/lib/libstagefright_soft_ste_wmapro_v10.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefright_ste_aacdec.so:system/lib/libstagefright_ste_aacdec.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefright_ste_mp3decode.so:system/lib/libstagefright_ste_mp3decode.so \
-    vendor/sony/montblanc-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_adm.so:system/lib/libste_adm.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_aiq_tools.so:system/lib/libste_aiq_tools.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
+    vendor/sony/montblanc-common/proprietary/lib/libstecom.so:system/lib/libstecom.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_image_common.so:system/lib/libste_ens_image_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
-    vendor/sony/montblanc-common/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
+    vendor/sony/montblanc-common/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
-    vendor/sony/montblanc-common/proprietary/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
-    vendor/sony/montblanc-common/proprietary/lib/libstecom.so:system/lib/libstecom.so \
     vendor/sony/montblanc-common/proprietary/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
+    vendor/sony/montblanc-common/proprietary/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
     vendor/sony/montblanc-common/proprietary/lib/libsterc.so:system/lib/libsterc.so \
+    vendor/sony/montblanc-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/montblanc-common/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/montblanc-common/proprietary/lib/libtee.so:system/lib/libtee.so \
     vendor/sony/montblanc-common/proprietary/lib/libtrace.so:system/lib/libtrace.so \
     vendor/sony/montblanc-common/proprietary/lib/libu300-parser.so:system/lib/libu300-parser.so \
     vendor/sony/montblanc-common/proprietary/lib/libu300-ril.so:system/lib/libu300-ril.so \
     vendor/sony/montblanc-common/proprietary/lib/libUMP.so:system/lib/libUMP.so \
-    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxarmivproc.so:system/lib/ste_omxcomponents/libst_omxarmivproc.so \
-    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxface_detector.so:system/lib/ste_omxcomponents/libst_omxface_detector.so \
-    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxnorcos.so:system/lib/ste_omxcomponents/libst_omxnorcos.so \
-    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxredeye_corrector.so:system/lib/ste_omxcomponents/libst_omxredeye_corrector.so \
-    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxredeye_detector.so:system/lib/ste_omxcomponents/libst_omxredeye_detector.so \
-    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxsplitter.so:system/lib/ste_omxcomponents/libst_omxsplitter.so \
     vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_alsasink.so:system/lib/ste_omxcomponents/libste_alsasink.so \
     vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
     vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
@@ -203,6 +235,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_tonegen.so:system/lib/ste_omxcomponents/libste_tonegen.so \
     vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_val_src_sink.so:system/lib/ste_omxcomponents/libste_val_src_sink.so \
     vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_virtual_surround.so:system/lib/ste_omxcomponents/libste_virtual_surround.so \
+    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxarmivproc.so:system/lib/ste_omxcomponents/libst_omxarmivproc.so \
+    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxface_detector.so:system/lib/ste_omxcomponents/libst_omxface_detector.so \
+    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxnorcos.so:system/lib/ste_omxcomponents/libst_omxnorcos.so \
+    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxredeye_corrector.so:system/lib/ste_omxcomponents/libst_omxredeye_corrector.so \
+    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxredeye_detector.so:system/lib/ste_omxcomponents/libst_omxredeye_detector.so \
+    vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libst_omxsplitter.so:system/lib/ste_omxcomponents/libst_omxsplitter.so \
     vendor/sony/montblanc-common/proprietary/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
     vendor/sony/montblanc-common/proprietary/lib/tee/cops_ta_test.ssw:system/lib/tee/cops_ta_test.ssw \
     vendor/sony/montblanc-common/proprietary/lib/tee/libasb_ta.ssw:system/lib/tee/libasb_ta.ssw \
@@ -233,6 +271,61 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
     vendor/sony/montblanc-common/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/sony/montblanc-common/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
+    vendor/sony/montblanc-common/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
+    vendor/sony/montblanc-common/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat:system/usr/share/camera/config_file/aptina_mt9v115.dat \
+    vendor/sony/montblanc-common/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat \
+    vendor/sony/montblanc-common/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri.dat \
+    vendor/sony/montblanc-common/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat:system/usr/share/camera/config_file/omnivision_ov5640_sec.dat \
+    vendor/sony/montblanc-common/proprietary/usr/share/camera/config_file/sony_isx006.dat:system/usr/share/camera/config_file/sony_isx006.dat \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrcommon.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrcommon.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrdec24.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrdec24.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrdec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrdec.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrenc24.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrenc24.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrenc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrenc.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/nmfil/decoder.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/nmfil/decoder.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/nmfil/encoder.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/nmfil/encoder.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/capturercontroller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/capturercontroller.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmain_bt.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmain_bt.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmain.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmain.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmaout_bt.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmaout_bt.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmaout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmaout.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/host_reg.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/host_reg.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_controller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_controller.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_ctrl_ab8500.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_ctrl_ab8500.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_ctrl_bt.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_ctrl_bt.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/renderercontroller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/renderercontroller.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiotables.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiotables.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiowindows.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiowindows.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libbitstream.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libbitstream.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libcrc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libcrc.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libdBconv.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libdBconv.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libfft.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libfft.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libimdct.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libimdct.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmalloc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmalloc.elf4nmf \
+vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmdct.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmdct.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmdcttables.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmdcttables.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmp3dequan.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmp3dequan.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmp3hybrid.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmp3hybrid.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libpolysyn.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libpolysyn.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libsbrqmf.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libsbrqmf.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libvector.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libvector.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/binary_splitter/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/binary_splitter/nmfil/wrapper.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/pcmadapter.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/pcmadapter.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shmpcm/shmin.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shmpcm/shmin.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shmpcm/shmout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shmpcm/shmout.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shm/shmin.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shm/shmin.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shm/shmout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shm/shmout.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/comfortnoise/effect/libcomfortnoise.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/comfortnoise/effect/libcomfortnoise.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/comfortnoise/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/comfortnoise/nmfil/effect.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/debug/mpc/dsp_printf.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/debug/mpc/dsp_printf.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/decoders/framealigned/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/decoders/framealigned/wrapper.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/decoders/streamed/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/decoders/streamed/wrapper.elf4nmf \
+vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/encoders/framealigned/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/encoders/framealigned/wrapper.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/encoders/streamed/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/encoders/streamed/wrapper.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/common/portstate.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/common/portstate.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/emptythisbuffer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/emptythisbuffer.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/eventhandler.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/eventhandler.elf4nmf \
@@ -283,6 +376,58 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/vc1dec/mpc/ddep/api/log_event.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/vc1dec/mpc/ddep/api/log_event.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/vpp/mpc/api/algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/vpp/mpc/api/algo.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/vpp/mpc/api/end_algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/vpp/mpc/api/end_algo.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_grabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_grabctl.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_grab.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_grab.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_ispctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_ispctl.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/fsm/component.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/fsm/component.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/fsm/generic.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/fsm/generic.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/grabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/grabctl.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/grab.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/grab.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/adapter.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/adapter.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/cabac.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/cabac.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/ddep.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/h264dec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/h264dec.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/adapter.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/adapter.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/algo.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/algo_hdtv.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/algo_hdtv.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/ddep.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/hybrid_hsem.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/hybrid_hsem.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/hybrid_lsem.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/hybrid_lsem.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ispctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ispctl.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegdec/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegdec/mpc/ddep.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegdec/mpc/jpegdec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegdec/mpc/jpegdec.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc/mpc/ddep.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/malloc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/malloc.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mdrc/effect/libmdrc5b.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mdrc/effect/libmdrc5b.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mdrc/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mdrc/nmfil/effect.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/memgrabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/memgrabctl.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/misc/controller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/misc/controller.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/misc/synchronisation.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/misc/synchronisation.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mixer/effect/libmixer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mixer/effect/libmixer.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mixer/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mixer/nmfil/wrapper.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mp3/codec/libmp3decode.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mp3/codec/libmp3decode.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mp3/nmfil/decoder.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mp3/nmfil/decoder.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg2dec/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg2dec/mpc/ddep.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg2dec/mpc/mpeg2dec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg2dec/mpc/mpeg2dec.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/algo_deblock.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/algo_deblock.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/ddep.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/mpeg4dec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/mpeg4dec.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc/mpc/brc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc/mpc/brc.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc/mpc/ddep.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufin.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufin.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufout.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/osttrace/mmdsp.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/osttrace/mmdsp.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/pcmprocessings/mips.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/pcmprocessings/mips.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/pcmprocessings/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/pcmprocessings/wrapper.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/pcm_splitter/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/pcm_splitter/nmfil/wrapper.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/preload_adm.txt:system/usr/share/nmf/repository/mmdsp_8500_v2/preload_adm.txt \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/preload_imaging.txt:system/usr/share/nmf/repository/mmdsp_8500_v2/preload_imaging.txt \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/preload_mpcee.txt:system/usr/share/nmf/repository/mmdsp_8500_v2/preload_mpcee.txt \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/resource_manager.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/resource_manager.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/effect/libresampling.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/effect/libresampling.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/nmfil/wrapper.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/amr/nmfil/decoder/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/amr/nmfil/decoder/configure.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/amr/nmfil/encoder/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/amr/nmfil/encoder/configure.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/api/set_debug.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/api/set_debug.elf4nmf \
@@ -338,10 +483,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/mpeg4dec/mpc/api/fillthisheader.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/mpeg4dec/mpc/api/fillthisheader.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/mpeg4enc/mpc/api/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/mpeg4enc/mpc/api/ddep.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/msp_dma_ctrl_ab8500/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/msp_dma_ctrl_ab8500/configure.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcm_splitter/nmfil/wrapper/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcm_splitter/nmfil/wrapper/configure.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcmprocessings/mips/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcmprocessings/mips/configure.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcmprocessings/wrapper/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcmprocessings/wrapper/configure.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcmsettings.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcmsettings.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcm_splitter/nmfil/wrapper/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcm_splitter/nmfil/wrapper/configure.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/resource_manager/api/common_interface_exports.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/resource_manager/api/common_interface_exports.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/resource_manager/api/mtf_resource.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/resource_manager/api/mtf_resource.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/samplerateconv/nmfil/wrapper/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/samplerateconv/nmfil/wrapper/configure.elf4nmf \
@@ -358,6 +503,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/vc1dec/mpc/api/mpc_trace_init.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/vc1dec/mpc/api/mpc_trace_init.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/vc1dec/mpc/ddep/api/start_codec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/vc1dec/mpc/ddep/api/start_codec.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/volctrl/nmfil/effect/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/volctrl/nmfil/effect/configure.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/dsp_port.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/dsp_port.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/hybrid_buffer/arm2mpc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/hybrid_buffer/arm2mpc.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/hybrid_buffer/mpc2arm.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/hybrid_buffer/mpc2arm.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/time_align.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/time_align.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/spl/effect/libspl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/spl/effect/libspl.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/spl/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/spl/nmfil/effect.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/debug/mpc/api/msg.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/debug/mpc/api/msg.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/dmaout/low_signal.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/dmaout/low_signal.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/emptythisbuffer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/emptythisbuffer.elf4nmf \
@@ -393,8 +544,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/arm_nmf/api/Copy.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/arm_nmf/api/Copy.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/ddep.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/emptythisheader.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/emptythisheader.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/end_algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/end_algo.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/end_algodeblock.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/end_algodeblock.elf4nmf \
+    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/end_algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/end_algo.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/fillthisheader.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/fillthisheader.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/msp_dma_ctrl_ab8500/bitclock.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/msp_dma_ctrl_ab8500/bitclock.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/pcmsettings.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/pcmsettings.elf4nmf \
@@ -408,113 +559,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/vc1dec/mpc/api/end_algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/vc1dec/mpc/api/end_algo.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/vc1dec/mpc/ddep/api/end_codec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/vc1dec/mpc/ddep/api/end_codec.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/vpp/mpc/api/end_algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/vpp/mpc/api/end_algo.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrcommon.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrcommon.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrdec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrdec.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrdec24.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrdec24.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrenc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrenc.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrenc24.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/codec/libamrenc24.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/nmfil/decoder.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/nmfil/decoder.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/amr/nmfil/encoder.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/amr/nmfil/encoder.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/capturercontroller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/capturercontroller.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmain.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmain.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmain_bt.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmain_bt.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmaout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmaout.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmaout_bt.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/dmaout_bt.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/host_reg.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/host_reg.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_controller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_controller.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_ctrl_ab8500.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_ctrl_ab8500.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_ctrl_bt.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_ctrl_bt.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/renderercontroller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/renderercontroller.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiotables.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiotables.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiowindows.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiowindows.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libbitstream.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libbitstream.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libcrc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libcrc.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libdBconv.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libdBconv.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libfft.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libfft.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libimdct.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libimdct.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmalloc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmalloc.elf4nmf \
-vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmdct.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmdct.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmdcttables.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmdcttables.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmp3dequan.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmp3dequan.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmp3hybrid.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libmp3hybrid.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libpolysyn.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libpolysyn.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libsbrqmf.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libsbrqmf.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libvector.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libvector.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/binary_splitter/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/binary_splitter/nmfil/wrapper.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/pcmadapter.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/pcmadapter.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shm/shmin.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shm/shmin.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shm/shmout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shm/shmout.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shmpcm/shmin.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shmpcm/shmin.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shmpcm/shmout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/bindings/shmpcm/shmout.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/comfortnoise/effect/libcomfortnoise.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/comfortnoise/effect/libcomfortnoise.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/comfortnoise/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/comfortnoise/nmfil/effect.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/debug/mpc/dsp_printf.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/debug/mpc/dsp_printf.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/decoders/framealigned/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/decoders/framealigned/wrapper.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/decoders/streamed/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/decoders/streamed/wrapper.elf4nmf \
-vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/encoders/framealigned/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/encoders/framealigned/wrapper.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/encoders/streamed/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/encoders/streamed/wrapper.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_grab.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_grab.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_grabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_grabctl.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_ispctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_ispctl.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/fsm/component.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/fsm/component.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/fsm/generic.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/fsm/generic.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/grab.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/grab.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/grabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/grabctl.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/adapter.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/adapter.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/cabac.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/cabac.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/ddep.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/h264dec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264dec/mpc/h264dec.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/adapter.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/adapter.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/algo.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/algo_hdtv.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/algo_hdtv.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/h264enc/mpc/ddep.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/hybrid_hsem.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/hybrid_hsem.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/hybrid_lsem.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/hybrid_lsem.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ispctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ispctl.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegdec/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegdec/mpc/ddep.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegdec/mpc/jpegdec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegdec/mpc/jpegdec.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc/mpc/ddep.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/malloc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/malloc.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mdrc/effect/libmdrc5b.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mdrc/effect/libmdrc5b.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mdrc/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mdrc/nmfil/effect.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/memgrabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/memgrabctl.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/misc/controller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/misc/controller.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/misc/synchronisation.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/misc/synchronisation.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mixer/effect/libmixer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mixer/effect/libmixer.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mixer/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mixer/nmfil/wrapper.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mp3/codec/libmp3decode.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mp3/codec/libmp3decode.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mp3/nmfil/decoder.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mp3/nmfil/decoder.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg2dec/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg2dec/mpc/ddep.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg2dec/mpc/mpeg2dec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg2dec/mpc/mpeg2dec.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/algo_deblock.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/algo_deblock.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/ddep.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/mpeg4dec.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4dec/mpc/mpeg4dec.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc/mpc/brc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc/mpc/brc.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc/mpc/ddep.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mpeg4enc/mpc/ddep.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufin.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufin.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufout.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/osttrace/mmdsp.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/osttrace/mmdsp.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/pcm_splitter/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/pcm_splitter/nmfil/wrapper.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/pcmprocessings/mips.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/pcmprocessings/mips.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/pcmprocessings/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/pcmprocessings/wrapper.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/preload_adm.txt:system/usr/share/nmf/repository/mmdsp_8500_v2/preload_adm.txt \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/preload_imaging.txt:system/usr/share/nmf/repository/mmdsp_8500_v2/preload_imaging.txt \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/preload_mpcee.txt:system/usr/share/nmf/repository/mmdsp_8500_v2/preload_mpcee.txt \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/resource_manager.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/resource_manager.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/effect/libresampling.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/effect/libresampling.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/nmfil/wrapper.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/dsp_port.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/dsp_port.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/hybrid_buffer/arm2mpc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/hybrid_buffer/arm2mpc.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/hybrid_buffer/mpc2arm.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/hybrid_buffer/mpc2arm.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/time_align.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/speech_proc/nmf/mpc/time_align.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/spl/effect/libspl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/spl/effect/libspl.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/spl/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/spl/nmfil/effect.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/synchronous_hsem.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/synchronous_hsem.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/synchronous_lsem.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/synchronous_lsem.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/transducer_equalizer/effect/libtransducer_equalizer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/transducer_equalizer/effect/libtransducer_equalizer.elf4nmf \
@@ -525,5 +569,7 @@ vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/effect/libvolctrl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/effect/libvolctrl.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/nmfil/effect.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf \
-    vendor/sony/montblanc-common/proprietary/xbin/watchdog-kicker:system/xbin/watchdog-kicker \
+    vendor/sony/montblanc-common/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
+    vendor/sony/montblanc-common/proprietary/vendor/camera/STW05BN0_BH6476.dat:system/vendor/camera/STW05BN0_BH6476.dat \
     vendor/sony/montblanc-common/proprietary/xbin/ste-cg29xx_ctrl:system/xbin/ste-cg29xx_ctrl \
+    vendor/sony/montblanc-common/proprietary/xbin/watchdog-kicker:system/xbin/watchdog-kicker \
