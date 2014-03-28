@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_camera.so:system/lib/ste_omxcomponents/libste_camera.so \
     vendor/sony/lotus/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/lotus/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/lotus/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/sony/lotus/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/lotus/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/sony/lotus/proprietary/usr/share/camera/tuning/ChrLin-010045.nmx:system/usr/share/camera/tuning/ChrLin-010045.nmx \

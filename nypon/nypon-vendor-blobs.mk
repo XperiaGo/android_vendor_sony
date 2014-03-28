@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/nypon/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/nypon/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/nypon/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/sony/nypon/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/nypon/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/sony/nypon/proprietary/lib/libhdmi_service.so:system/lib/libhdmi_service.so \
