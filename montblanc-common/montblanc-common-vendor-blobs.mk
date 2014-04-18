@@ -99,9 +99,7 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/lib/hw/audio_policy.montblanc.so:system/lib/hw/audio_policy.montblanc.so \
         vendor/sony/montblanc-common/proprietary/lib/hw/audio.primary.montblanc.so:system/lib/hw/audio.primary.montblanc.so \
         vendor/sony/montblanc-common/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
-        vendor/sony/montblanc-common/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so \
         vendor/sony/montblanc-common/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
-        vendor/sony/montblanc-common/proprietary/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
         vendor/sony/montblanc-common/proprietary/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
         vendor/sony/montblanc-common/proprietary/lib/libarchive_fe.so:system/lib/libarchive_fe.so \
         vendor/sony/montblanc-common/proprietary/lib/libarchive.so:system/lib/libarchive.so \
@@ -173,7 +171,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
         vendor/sony/montblanc-common/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
         vendor/sony/montblanc-common/proprietary/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
-        vendor/sony/montblanc-common/proprietary/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
         vendor/sony/montblanc-common/proprietary/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
         vendor/sony/montblanc-common/proprietary/lib/libsterc.so:system/lib/libsterc.so \
         vendor/sony/montblanc-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
