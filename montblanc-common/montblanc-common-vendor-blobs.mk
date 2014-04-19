@@ -100,7 +100,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/lib/hw/audio.primary.montblanc.so:system/lib/hw/audio.primary.montblanc.so \
         vendor/sony/montblanc-common/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
         vendor/sony/montblanc-common/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
-        vendor/sony/montblanc-common/proprietary/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
         vendor/sony/montblanc-common/proprietary/lib/libarchive_fe.so:system/lib/libarchive_fe.so \
         vendor/sony/montblanc-common/proprietary/lib/libarchive.so:system/lib/libarchive.so \
         vendor/sony/montblanc-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
