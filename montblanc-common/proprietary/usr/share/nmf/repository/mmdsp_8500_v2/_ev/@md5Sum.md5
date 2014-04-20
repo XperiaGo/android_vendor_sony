@@ -1,0 +1,8 @@
+3b67e411a7b96d000a304916fbc028fc  /home/percy/aosx/vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/emptythisbuffer.elf4nmf
+a73b312e5d8779a3337fba6f2a16a04c  /home/percy/aosx/vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/eventhandler.elf4nmf
+3d13e0a50b856e8826737146494fe63a  /home/percy/aosx/vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/fillthisbuffer.elf4nmf
+ca2c6edae60624b6b41a5b6ae9477666  /home/percy/aosx/vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/fsminit.elf4nmf
+f054e3c4fbeac0e283f9205eb8de8381  /home/percy/aosx/vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/interruptdfc.elf4nmf
+a6ac60410ab3505797167ba8163908b3  /home/percy/aosx/vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/pcmsettings.elf4nmf
+8b8e15eb7f2de34b12d91128cb6cd8f4  /home/percy/aosx/vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/postevent.elf4nmf
+e1e1647fa141ce4656a8753fe2ef4a25  /home/percy/aosx/vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/sendcommand.elf4nmf

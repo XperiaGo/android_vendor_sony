@@ -1,0 +1,12 @@
+1a2c87ffdf96d1b11bd40319b4c9adc1  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_ab8500_bat_ctrl.so
+a58d95de27df62a766ca41d8339873cf  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_ab8500_bat_temp.so
+606113d583bea52e063f51bacbe9bd04  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_ab8500_ext_rtc_xtal.so
+4512efe3e54f37b6cdc9e3397ec9693e  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_ab8500.so
+f10f4a5c809d9211b90cf60fe4c50e74  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_db8500_ext.so
+623e0354481cd8d450c00cf2e57f1547  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_disable_charging.so
+c63a9d05c148883c0845b3fb7f417540  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_enable_charging.so
+3453d6270bc588118e75bf958b2d3f64  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_lcd_brightnesslevel30.so
+72dfbf3ad3632daa61291d6efca1c0ad  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_lcd_brightnesslevel50.so
+a36bb459aec588af9b4958e3f5251b66  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_lcd_brightnesslevel70.so
+dee3a750f69522c6ca2f5ca8dc6bc675  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_lcd_brightness_reset.so
+49d2aba147bb67e0ec91682c3106be3c  /home/percy/aosx/vendor/sony/nypon/proprietary/lib/sysmon/sysmon_test_sensor.so
