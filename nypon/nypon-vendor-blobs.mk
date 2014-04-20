@@ -112,10 +112,7 @@ PRODUCT_COPY_FILES := \
     vendor/sony/nypon/proprietary/lib/hw/audio.primary.montblanc.so:system/lib/hw/audio.primary.montblanc.so \
     vendor/sony/nypon/proprietary/lib/hw/audio_policy.montblanc.so:system/lib/hw/audio_policy.montblanc.so \
     vendor/sony/nypon/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
-    vendor/sony/nypon/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so \
     vendor/sony/nypon/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
-    vendor/sony/nypon/proprietary/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
-    vendor/sony/nypon/proprietary/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
     vendor/sony/nypon/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/nypon/proprietary/lib/hw/nfc.montblanc.so:system/lib/hw/nfc.montblanc.so \
     vendor/sony/nypon/proprietary/lib/hw/hdmi.default.so:system/lib/hw/hdmi.default.so \
@@ -198,7 +195,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/nypon/proprietary/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     vendor/sony/nypon/proprietary/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
     vendor/sony/nypon/proprietary/lib/libstecom.so:system/lib/libstecom.so \
-    vendor/sony/nypon/proprietary/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     vendor/sony/nypon/proprietary/lib/libsterc.so:system/lib/libsterc.so \
     vendor/sony/nypon/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/nypon/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
