@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/nypon/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/nypon/proprietary/bin/cops_cmd:system/bin/cops_cmd \
     vendor/sony/nypon/proprietary/bin/copsdaemon:system/bin/copsdaemon \
-    vendor/sony/nypon/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
     vendor/sony/nypon/proprietary/bin/lbsd:system/bin/lbsd \
     vendor/sony/nypon/proprietary/bin/lbsstelp:system/bin/lbsstelp \
     vendor/sony/nypon/proprietary/bin/modem_log_relay:system/bin/modem_log_relay \
