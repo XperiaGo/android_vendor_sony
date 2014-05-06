@@ -587,5 +587,7 @@ PRODUCT_COPY_FILES := \
     vendor/sony/nypon/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
     vendor/sony/nypon/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/nypon/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/sony/nypon/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
+    vendor/sony/nypon/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
     vendor/sony/nypon/proprietary/xbin/ste-cg29xx_ctrl:system/xbin/ste-cg29xx_ctrl \
     vendor/sony/nypon/proprietary/xbin/watchdog-kicker:system/xbin/watchdog-kicker
