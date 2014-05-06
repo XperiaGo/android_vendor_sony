@@ -48,4 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/vendor/camera/KMO05BN0_BH6476.dat:system/vendor/camera/KMO05BN0_BH6476.dat \
     vendor/sony/pepper/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/pepper/proprietary/vendor/camera/STW05BN0.dat:system/vendor/camera/STW05BN0.dat \
-    vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+	vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
+    vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so
+	
