@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/bin/admsrv:system/bin/admsrv \
         vendor/sony/montblanc-common/proprietary/bin/at_core:system/bin/at_core \
+        vendor/sony/montblanc-common/proprietary/bin/batcap:system/bin/batcap \
         vendor/sony/montblanc-common/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
         vendor/sony/montblanc-common/proprietary/bin/cg2900-channel_init.sh:system/bin/cg2900-channel_init.sh \
         vendor/sony/montblanc-common/proprietary/bin/chargemon:system/bin/chargemon \
@@ -38,6 +39,7 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/bin/sms_server:system/bin/sms_server \
         vendor/sony/montblanc-common/proprietary/bin/startupflag:system/bin/startupflag \
         vendor/sony/montblanc-common/proprietary/bin/ste-adm-test:system/bin/ste-adm-test \
+        vendor/sony/montblanc-common/proprietary/bin/ste_mad:system/bin/ste_mad \
         vendor/sony/montblanc-common/proprietary/bin/ste_omxil_test:system/bin/ste_omxil_test \
         vendor/sony/montblanc-common/proprietary/bin/stercd:system/bin/stercd \
         vendor/sony/montblanc-common/proprietary/bin/suntrold:system/bin/suntrold \
