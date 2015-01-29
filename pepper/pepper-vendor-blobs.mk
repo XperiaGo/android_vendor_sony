@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/pepper/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/pepper/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/pepper/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/sony/pepper/proprietary/usr/share/camera/tuning/ChrLin-010045.nmx:system/usr/share/camera/tuning/ChrLin-010045.nmx \
     vendor/sony/pepper/proprietary/usr/share/camera/tuning/ChrLin-020045.nmx:system/usr/share/camera/tuning/ChrLin-020045.nmx \
     vendor/sony/pepper/proprietary/usr/share/camera/tuning/ChrLsc-010045.nmx:system/usr/share/camera/tuning/ChrLsc-010045.nmx \
