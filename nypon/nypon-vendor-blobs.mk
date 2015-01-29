@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/nypon/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/nypon/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/nypon/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
-    vendor/sony/nypon/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
     vendor/sony/nypon/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/nypon/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/nypon/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
