@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/bin/sms_server:system/bin/sms_server \
         vendor/sony/montblanc-common/proprietary/bin/startupflag:system/bin/startupflag \
         vendor/sony/montblanc-common/proprietary/bin/ste-adm-test:system/bin/ste-adm-test \
-        vendor/sony/montblanc-common/proprietary/bin/ste_mad:system/bin/ste_mad \
         vendor/sony/montblanc-common/proprietary/bin/ste_omxil_test:system/bin/ste_omxil_test \
         vendor/sony/montblanc-common/proprietary/bin/stercd:system/bin/stercd \
         vendor/sony/montblanc-common/proprietary/bin/suntrold:system/bin/suntrold \
