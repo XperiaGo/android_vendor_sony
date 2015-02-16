@@ -18,8 +18,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/bin/admsrv:system/bin/admsrv \
         vendor/sony/montblanc-common/proprietary/bin/at_core:system/bin/at_core \
         vendor/sony/montblanc-common/proprietary/bin/batcap:system/bin/batcap \
-        vendor/sony/montblanc-common/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
-        vendor/sony/montblanc-common/proprietary/bin/cg2900-channel_init.sh:system/bin/cg2900-channel_init.sh \
         vendor/sony/montblanc-common/proprietary/bin/chargemon:system/bin/chargemon \
         vendor/sony/montblanc-common/proprietary/bin/cn_server:system/bin/cn_server \
         vendor/sony/montblanc-common/proprietary/bin/cops_cmd:system/bin/cops_cmd \
@@ -552,6 +550,5 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf \
         vendor/sony/montblanc-common/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
         vendor/sony/montblanc-common/proprietary/vendor/camera/STW05BN0_BH6476.dat:system/vendor/camera/STW05BN0_BH6476.dat \
-        vendor/sony/montblanc-common/proprietary/xbin/ste-cg29xx_ctrl:system/xbin/ste-cg29xx_ctrl \
         vendor/sony/montblanc-common/proprietary/xbin/watchdog-kicker:system/xbin/watchdog-kicker
         
