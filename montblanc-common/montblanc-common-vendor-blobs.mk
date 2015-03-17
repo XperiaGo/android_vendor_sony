@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/bin/taimport:system/bin/taimport \
         vendor/sony/montblanc-common/proprietary/bin/ta_reader:system/bin/ta_reader \
         vendor/sony/montblanc-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-        vendor/sony/montblanc-common/proprietary/bin/usbid_init.sh:system/bin/usbid_init.sh \
         vendor/sony/montblanc-common/proprietary/bin/wait4tad:system/bin/wait4tad \
         vendor/sony/montblanc-common/proprietary/etc/adm.sqlite:system/etc/adm.sqlite \
         vendor/sony/montblanc-common/proprietary/etc/AT/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
