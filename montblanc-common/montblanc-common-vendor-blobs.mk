@@ -117,7 +117,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/lib/libcn.so:system/lib/libcn.so \
         vendor/sony/montblanc-common/proprietary/lib/libcops.so:system/lib/libcops.so \
         vendor/sony/montblanc-common/proprietary/lib/libface.so:system/lib/libface.so \
-        vendor/sony/montblanc-common/proprietary/lib/libfmradio.cg2900.so:system/lib/libfmradio.cg2900.so \
         vendor/sony/montblanc-common/proprietary/lib/libiddjni.so:system/lib/libiddjni.so \
         vendor/sony/montblanc-common/proprietary/lib/libidd.so:system/lib/libidd.so \
         vendor/sony/montblanc-common/proprietary/lib/libisimessage.so:system/lib/libisimessage.so \
