@@ -183,18 +183,14 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_binary_splitter.so:system/lib/ste_omxcomponents/libste_binary_splitter.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_comfort_noise.so:system/lib/ste_omxcomponents/libste_comfort_noise.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_cscall.so:system/lib/ste_omxcomponents/libste_cscall.so \
-        vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_aacarm.so:system/lib/ste_omxcomponents/libste_dec_aacarm.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_amr.so:system/lib/ste_omxcomponents/libste_dec_amr.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_amrwb.so:system/lib/ste_omxcomponents/libste_dec_amrwb.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_h264.so:system/lib/ste_omxcomponents/libste_dec_h264.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_jpeg.so:system/lib/ste_omxcomponents/libste_dec_jpeg.so \
-        vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_mp3.so:system/lib/ste_omxcomponents/libste_dec_mp3.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_mpeg2.so:system/lib/ste_omxcomponents/libste_dec_mpeg2.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_mpeg4.so:system/lib/ste_omxcomponents/libste_dec_mpeg4.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_vc1.so:system/lib/ste_omxcomponents/libste_dec_vc1.so \
-        vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_dec_wmapro_v10.so:system/lib/ste_omxcomponents/libste_dec_wmapro_v10.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_drc.so:system/lib/ste_omxcomponents/libste_drc.so \
-        vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_enc_aac.so:system/lib/ste_omxcomponents/libste_enc_aac.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_enc_amr.so:system/lib/ste_omxcomponents/libste_enc_amr.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_enc_amrwb.so:system/lib/ste_omxcomponents/libste_enc_amrwb.so \
         vendor/sony/montblanc-common/proprietary/lib/ste_omxcomponents/libste_enc_h264.so:system/lib/ste_omxcomponents/libste_enc_h264.so \
