@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/etc/firmware/sdd_22.bin:system/etc/firmware/sdd_22.bin \
     vendor/sony/pepper/proprietary/etc/firmware/ttsp_fw.hex:system/etc/firmware/ttsp_fw.hex \
     vendor/sony/pepper/proprietary/lib/hw/nfc.montblanc.so:system/lib/hw/nfc.montblanc.so \
-    vendor/sony/pepper/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/pepper/proprietary/lib/ste_omxcomponents/libste_camera.so:system/lib/ste_omxcomponents/libste_camera.so \
     vendor/sony/pepper/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/pepper/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
