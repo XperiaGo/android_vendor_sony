@@ -47,13 +47,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/bin/wait4tad:system/bin/wait4tad \
         vendor/sony/montblanc-common/proprietary/etc/adm.sqlite:system/etc/adm.sqlite \
         vendor/sony/montblanc-common/proprietary/etc/AT/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
-        vendor/sony/montblanc-common/proprietary/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
-        vendor/sony/montblanc-common/proprietary/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
-        vendor/sony/montblanc-common/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
-        vendor/sony/montblanc-common/proprietary/etc/bluetooth/input.conf:system/etc/bluetooth/input.conf \
-        vendor/sony/montblanc-common/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
-        vendor/sony/montblanc-common/proprietary/etc/bluetooth/network.conf:system/etc/bluetooth/network.conf \
-        vendor/sony/montblanc-common/proprietary/etc/bluetooth/qos_role_switch_blacklist.conf:system/etc/bluetooth/qos_role_switch_blacklist.conf \
         vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw:system/etc/firmware/cg2900_fm_bt_src_coeff_info.fw \
         vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
         vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw:system/etc/firmware/cg2900_fm_fm_coeff_info.fw \
@@ -229,9 +222,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/lib/tee/suntory_convert_ta_test.ssw:system/lib/tee/suntory_convert_ta_test.ssw \
         vendor/sony/montblanc-common/proprietary/lib/tee/suntory_core_ta.ssw:system/lib/tee/suntory_core_ta.ssw \
         vendor/sony/montblanc-common/proprietary/lib/tee/suntory_core_ta_test.ssw:system/lib/tee/suntory_core_ta_test.ssw \
-        vendor/sony/montblanc-common/proprietary/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so \
-        vendor/sony/montblanc-common/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so \
-        vendor/sony/montblanc-common/proprietary/usr/lib/alsa-lib/libasound_module_pcm_steiop.so:system/usr/lib/alsa-lib/libasound_module_pcm_steiop.so \
         vendor/sony/montblanc-common/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
         vendor/sony/montblanc-common/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
         vendor/sony/montblanc-common/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
