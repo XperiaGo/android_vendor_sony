@@ -76,6 +76,8 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/etc/LbsPgpsConfig.cfg:system/etc/LbsPgpsConfig.cfg \
         vendor/sony/montblanc-common/proprietary/etc/LbsPltConfig.cfg:system/etc/LbsPltConfig.cfg \
         vendor/sony/montblanc-common/proprietary/etc/plmn.operator.list:system/etc/plmn.operator.list \
+        vendor/sony/montblanc-common/proprietary/etc/plmn.operator.nitz.list:system/etc/plmn.operator.nitz.list \
+        vendor/sony/montblanc-common/proprietary/etc/telephony_log_levels:system/etc/telephony_log_levels \
         vendor/sony/montblanc-common/proprietary/etc/psdata/stepscc_conf:system/etc/psdata/stepscc_conf \
         vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_conf_alt:system/etc/psdata/sterc_conf_alt \
         vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_conf:system/etc/psdata/sterc_conf \
