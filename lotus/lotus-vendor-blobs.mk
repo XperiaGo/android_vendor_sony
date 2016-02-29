@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/etc/firmware/CG29XX_0200_0000_settings.fw:system/etc/firmware/CG29XX_0200_0000_settings.fw \
     vendor/sony/lotus/proprietary/etc/firmware/sdd_22.bin:system/etc/firmware/sdd_22.bin \
     vendor/sony/lotus/proprietary/etc/firmware/ttsp_fw.hex:system/etc/firmware/ttsp_fw.hex \
-    vendor/sony/lotus/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_camera.so:system/lib/ste_omxcomponents/libste_camera.so \
     vendor/sony/lotus/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/lotus/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
