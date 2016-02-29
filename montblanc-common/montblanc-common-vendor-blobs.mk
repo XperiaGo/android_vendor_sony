@@ -150,7 +150,6 @@ PRODUCT_COPY_FILES += \
         vendor/sony/montblanc-common/proprietary/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
         vendor/sony/montblanc-common/proprietary/lib/libsms_server.so:system/lib/libsms_server.so \
         vendor/sony/montblanc-common/proprietary/lib/libspeech_processing.so:system/lib/libspeech_processing.so \
-        vendor/sony/montblanc-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
         vendor/sony/montblanc-common/proprietary/lib/libste_adm.so:system/lib/libste_adm.so \
         vendor/sony/montblanc-common/proprietary/lib/libste_aiq_tools.so:system/lib/libste_aiq_tools.so \
         vendor/sony/montblanc-common/proprietary/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
